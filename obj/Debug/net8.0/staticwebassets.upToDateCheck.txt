@@ -1,0 +1,12 @@
+wwwroot\admin.html
+wwwroot\app.js
+wwwroot\images\.gitkeep
+wwwroot\index.html
+wwwroot\style.css
+wwwroot\images\seenigamadevalaya.jpg
+wwwroot\images\Hikkaduwabeach.jpeg
+wwwroot\images\hikkaduwacoral.jpg
+wwwroot\images\hikkatranz.jpeg
+wwwroot\images\ariyapala.jpeg
+wwwroot\images\gallefort.jpeg
+wwwroot\images\paraliyatsunamimemento.jpeg

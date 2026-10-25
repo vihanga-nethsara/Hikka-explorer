@@ -1,0 +1,17 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hikka Explorer</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Nunito:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="style.css"></head><body>
+<header class="top"><a class="brand" href="#">Hikka Explorer</a>
+ <button id="tripBtn" class="pill">My day plan <b id="count">0</b></button></header>
+<section class="hero"><h1>One day around Hikkaduwa</h1>
+ <p>Find beaches, temples, forts and lagoons within 25 km, then line them up into a day.</p>
+ <form id="sf" role="search"><input id="q" type="search" maxlength="100" aria-label="Search places" placeholder="Search places, e.g. beach">
+ <button>Search</button></form>
+ <div id="cats" class="chips" aria-label="Categories"></div>
+ <label style="display:block;margin-top:1rem">Sort by <select id="sort" style="padding:.4rem;border-radius:6px;border:0;font:inherit"><option value="">Nearest first</option><option value="far">Farthest first</option><option value="name">Name A-Z</option></select></label></section>
+<main><p id="msg" role="status"></p><div id="grid"></div></main>
+<aside id="trip" aria-label="My day plan" hidden><div class="row"><h2>My day plan</h2><button id="closeTrip" class="ghost">Close</button></div>
+ <ol id="tripList"></ol><p id="tripMsg"></p></aside>
+<dialog id="dlg"></dialog><div id="toast" role="status"></div>
+<script src="app.js"></script></body></html>
